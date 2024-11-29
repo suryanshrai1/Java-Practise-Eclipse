@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.java.strings.Lexigraphic&apos; to &apos;Lexicographic&apos;&#x0D;&#x0A;- Original project: &apos;oops_class&apos;&#x0D;&#x0A;- Original element: &apos;com.java.strings.Lexigraphic&apos;&#x0D;&#x0A;- Renamed element: &apos;com.java.strings.Lexicographic&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Lexigraphic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.java.strings{Lexigraphic.java[Lexigraphic" matchStrategy="1" name="Lexicographic" qualified="false" references="true" similarDeclarations="false" stamp="1732902221678" textual="false" version="1.0"/>
+</session>
