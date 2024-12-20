@@ -1,4 +1,5 @@
 package com.java.StringTest;
+//Write a Java program that matches a string that has a p followed by zero or more q's.
 
 public class StringWithPQ {
 	 
