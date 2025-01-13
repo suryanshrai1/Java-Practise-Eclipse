@@ -1,4 +1,4 @@
-package ADSTest;
+package com.java.ADSTest;
 
 import java.util.Scanner;
 

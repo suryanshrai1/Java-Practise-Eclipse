@@ -1,4 +1,4 @@
-package com.java.numbers;
+package com.java.ADSTest;
 
 public class PrimeNo {
     static int count = 0;
@@ -25,3 +25,4 @@ public class PrimeNo {
         }
     }
 }
+

@@ -1,4 +1,4 @@
-package ADSTest;
+package com.java.ADSTest;
 
 public class OddNoCount {
 	static int arr[] = {12,345,2,3,7};
