@@ -16,8 +16,8 @@ public class StringMethods {
 		
 		System.out.println("To check equality: "+ str1.equals(str3));
 		
-		
-		
 	}
 
 }
+
+
