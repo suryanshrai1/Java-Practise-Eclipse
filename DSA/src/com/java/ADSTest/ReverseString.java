@@ -2,10 +2,10 @@ package com.java.ADSTest;
 
 public class ReverseString {
 	public static void main(String[] args) {
-		String str [ ] = {"HelloWorld"};
+		char str [ ] = "HelloWorld".toCharArray();
 		int start =0;
 		int end = str.length -1;
-		String temp;
+		char temp;
 		while(start < end) {
 			temp = str[start];
 			str[start] = str[end];
@@ -13,6 +13,9 @@ public class ReverseString {
 			start++;
 			end--;
 		}
-		System.out.println(str);
+		for(int i= 0; i< str.length; i++) {
+			System.out.print(str[i]);
+			
+		}
 	}
 }

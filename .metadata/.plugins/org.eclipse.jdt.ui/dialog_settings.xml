@@ -5,9 +5,10 @@
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<item key="filters_last_used" value="filter_imports;"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\Users\suryansh\eclipse-workspace"/>
 	<section name="JavaProjectWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="575"/>
-		<item key="DIALOG_Y_ORIGIN" value="9"/>
+		<item key="DIALOG_X_ORIGIN" value="744"/>
+		<item key="DIALOG_Y_ORIGIN" value="65"/>
 		<item key="DIALOG_WIDTH" value="1066"/>
 		<item key="DIALOG_HEIGHT" value="1084"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -122,6 +123,20 @@
 		<item key="DIALOG_Y_ORIGIN" value="93"/>
 		<item key="DIALOG_WIDTH" value="793"/>
 		<item key="DIALOG_HEIGHT" value="729"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewSourceFolderCreationWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="575"/>
+		<item key="DIALOG_Y_ORIGIN" value="244"/>
+		<item key="DIALOG_WIDTH" value="788"/>
+		<item key="DIALOG_HEIGHT" value="503"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewJavaWorkingSetWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="515"/>
+		<item key="DIALOG_Y_ORIGIN" value="73"/>
+		<item key="DIALOG_WIDTH" value="909"/>
+		<item key="DIALOG_HEIGHT" value="759"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
