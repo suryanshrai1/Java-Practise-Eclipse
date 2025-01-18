@@ -2,7 +2,7 @@ package com.java.ADSTest;
 
 public class VowelCount {
 	public static void main(String[] args) {
-		String str= "SuryanshRai";
+		String str= "suryanshrai";
 		char[] arr = str.toCharArray();
 		int count = 0;
 		for(int i=0; i<arr.length; i++) {
