@@ -20,6 +20,7 @@ public class HashMapTest {
 		
 		System.out.println("SIze after removal: "+ ageMap.size());
 		
-		
 	}
 }
+
+

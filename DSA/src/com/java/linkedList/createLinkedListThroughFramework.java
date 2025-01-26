@@ -15,13 +15,22 @@ public class createLinkedListThroughFramework {
 		
 		l1.addFirst("70");
 		
+		l1.add(1, "80");
+		
 		l1.addLast("60");
 		
-		l1.add(1, "80");
+		
 				
 		System.out.println(l1);
 		
 		System.out.println(l1.contains("20"));  // contains method
+		
+		System.out.println(l1.getLast());
+		
+		
+		
+		l1.clear(); // deletes all the elements of the linked list
+		System.out.println(l1);
 		
 		
 	}
