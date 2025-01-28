@@ -20,3 +20,5 @@ public class MajorityElem {
         System.out.println("The majority element is: " + majorityElement);
     }
 }
+
+
