@@ -6,6 +6,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<item key="filters_last_used" value="filter_imports;"/>
 	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\Users\suryansh\eclipse-workspace"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\suryansh\Downloads\mysql-connector-j-9.2.0\mysql-connector-j-9.2.0"/>
 	<section name="JavaProjectWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="744"/>
 		<item key="DIALOG_Y_ORIGIN" value="65"/>
@@ -150,5 +151,12 @@
 			<item key="DIALOG_Y_ORIGIN" value="246"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
+	</section>
+	<section name="NewEnumCreationWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="575"/>
+		<item key="DIALOG_Y_ORIGIN" value="115"/>
+		<item key="DIALOG_WIDTH" value="788"/>
+		<item key="DIALOG_HEIGHT" value="696"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
