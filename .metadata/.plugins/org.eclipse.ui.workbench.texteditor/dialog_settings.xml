@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="RearrangeArrElemBySign"/>
+		<item key="selection" value="threeSum"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
@@ -9,6 +9,7 @@
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
 			<item value="Solution"/>
+			<item value="Solution "/>
 			<item value="solution"/>
 			<item value="node"/>
 			<item value="Cherry"/>
@@ -17,6 +18,7 @@
 			<item value="e1"/>
 		</list>
 		<list key="replacehistory">
+			<item value="threeSum"/>
 			<item value="RearrangeArrElemBySign"/>
 			<item value="SearchInsertPosition"/>
 			<item value="Node"/>
