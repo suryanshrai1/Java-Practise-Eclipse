@@ -12,7 +12,7 @@ class ListNode {
     }
 }
 
-public class RemoveElement {
+public class removeElement {
     public ListNode removeElements(ListNode head, int val) {
         // Create a dummy node to handle edge cases
         ListNode dummy = new ListNode(0);
@@ -46,8 +46,8 @@ public class RemoveElement {
         // Value to remove
         int valToRemove = 6;
 
-        // Create a RemoveElement object and remove elements
-        RemoveElement solution = new RemoveElement();
+        // Create a removeElement object and remove elements
+        removeElement solution = new removeElement();
         ListNode newHead = solution.removeElements(head, valToRemove);
 
         // Print the resulting linked list
