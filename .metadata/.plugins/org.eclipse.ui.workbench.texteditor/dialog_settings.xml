@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="FourSum"/>
+		<item key="selection" value="ValidPalindrome"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="solution"/>
 			<item value="Solution"/>
+			<item value="RemoveElement"/>
+			<item value="solution"/>
 			<item value="Solution "/>
 			<item value="node"/>
 			<item value="Cherry"/>
@@ -18,6 +19,8 @@
 			<item value="e1"/>
 		</list>
 		<list key="replacehistory">
+			<item value="ValidPalindrome"/>
+			<item value="removeElement"/>
 			<item value="FourSum"/>
 			<item value="fourSum"/>
 			<item value="threeSum"/>
