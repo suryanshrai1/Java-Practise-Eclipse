@@ -16,7 +16,7 @@ public class reverseString {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        reverseString solution = new reverseString();
         
         // Test cases
         String input1 = "the sky is blue";
@@ -25,7 +25,6 @@ public class reverseString {
         String input4 = "  Bob    Loves  Alice   ";
         String input5 = "Alice does not even like bob";
 
-        // Print results
         System.out.println("Input: \"" + input1 + "\"");
         System.out.println("Output: \"" + solution.reverseWords(input1) + "\"");
         
