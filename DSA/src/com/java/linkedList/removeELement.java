@@ -1,7 +1,5 @@
 package com.java.linkedList;
 
-
-
 class ListNode {
     int val;
     ListNode next;

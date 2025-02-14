@@ -32,7 +32,6 @@ public class createLinkedListThroughFramework {
 		l1.clear(); // deletes all the elements of the linked list
 		System.out.println(l1);
 		
-		
 	}
-	
 }
+
