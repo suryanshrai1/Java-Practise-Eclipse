@@ -1,4 +1,4 @@
-package com.java.recursionTest;
+package com.java.recursion;
 
 public class PrintNums {
 	public static void printNum(int n) {

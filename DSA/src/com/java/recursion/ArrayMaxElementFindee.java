@@ -1,4 +1,4 @@
-package com.java.recursionTest;
+package com.java.recursion;
 
 import java.util.Arrays;
 public class ArrayMaxElementFindee {

@@ -1,4 +1,4 @@
-package com.java.recursionTest;
+package com.java.recursion;
 
 public class sumOfN {
 	  public static int calculateSum(int n) {

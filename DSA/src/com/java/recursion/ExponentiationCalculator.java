@@ -1,5 +1,5 @@
 /* Java recursive method to calculate the exponentiation of a number (base) raised to a power (exponent).*/
-package com.java.recursionTest;
+package com.java.recursion;
 
 public class ExponentiationCalculator {
 	  public static double calculateExponentiation(double base, int exponent) {
