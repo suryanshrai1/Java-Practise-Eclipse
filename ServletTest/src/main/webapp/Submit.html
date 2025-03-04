@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicant Form</title>
+</head>
+<body>
+    <h1>Applicant Form</h1>
+    <form action="/ServletTest/SubmitServ" method="post">
+    
+        Name: <input type="text" name="name" required><br>
+        Roll No: <input type="text" name="rollNo" required><br>
+        Email Id: <input type="email" name="email" required><br>
+        Address: <input type="text" name="address" required><br>
+        Gender: 
+        <select name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br>
+        Highest Educational Qualification: <input type="text" name="qualification" required><br>
+        Post Applied: <input type="text" name="postApplied" required><br>
+        Preferred Location: <input type="text" name="preferredLocation" required><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
