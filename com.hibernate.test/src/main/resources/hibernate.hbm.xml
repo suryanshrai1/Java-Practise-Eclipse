@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <hibernate-mapping>
-<class name="Employee" table="employee">
+<class name="com.hibernate.test.Employee" table="employee"> 
+<!--  Above was the line causing the error Employee class not found error since i gave the class name just Employee but it should be the complete path too-->
 <id name="id" type="int"></id>
 <property name="name" type="string"></property>
 
