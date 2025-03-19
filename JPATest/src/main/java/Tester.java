@@ -11,7 +11,7 @@ public class Tester {
 		entityManager.getTransaction().begin();
 		Employee employee=new Employee();
 		//employee.setId(50);
-		employee.setName("Suryansh");
+		employee.setName("Vedant");
 		entityManager.persist(employee);
 		entityManager.getTransaction().commit();
 		entityManager.close();
