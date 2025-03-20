@@ -5,7 +5,7 @@ import jakarta.persistence.Persistence;
 public class Tester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		EntityManagerFactory factory=Persistence.createEntityManagerFactory("emp1");
 		EntityManager entityManager=factory.createEntityManager();
 		entityManager.getTransaction().begin();
@@ -17,7 +17,5 @@ public class Tester {
 		entityManager.close();
 		factory.close();
 		
-		
 	}
-
 }
