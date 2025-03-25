@@ -1,3 +1,4 @@
+<%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
@@ -12,7 +13,8 @@
 <body>
 
 	<%
-String nm = request.getParameter("nm");
+String un = request.getParameter("un");
+String pwd = request.getParameter("pwd");	
 String add = request.getParameter("add");
 String mob= request.getParameter("mob");
 
@@ -21,15 +23,17 @@ try{
 	//out.println("Checkpoint1 Reached");
 	Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee", "root", "Surya#589");
 	Statement statement = connection.createStatement();
-	String query = "INSERT INTO `registrations` ( `name`, `add`, `mob`) VALUES ('nm', 'add', 'mob')"; 
+	String query = "Insert into users (`username`, `password`, `address`, `mobile_no`) values (' "+un+" ', ' "+pwd+" ',' "+add+" ',' "+mob+" ' )";
+	statement.executeUpdate(query);
+	
+	response.sendRedirect("regSuccess.html");
+	
 	
 	
 }
 catch(Exception e){
 	System.out.println(e);
 }
-
-
 
 
 
