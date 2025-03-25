@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="authenticate"/>
+			<item value="count"/>
 			<item value="ServletTest"/>
 			<item value="currDateAndTime"/>
 			<item value="web"/>
@@ -23,6 +25,8 @@
 			<item value="e1"/>
 		</list>
 		<list key="replacehistory">
+			<item value="login"/>
+			<item value="limit"/>
 			<item value="CurrDateAndTime"/>
 			<item value="s"/>
 			<item value="reverseString"/>
@@ -36,8 +40,6 @@
 			<item value="Node"/>
 			<item value="Horse"/>
 			<item value="&apos;"/>
-			<item value="emp2"/>
-			<item value="e2"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
