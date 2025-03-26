@@ -8,13 +8,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login</title>
 </head>
 <body>
 
 	<%
-	String un = request.getParameter("un");
-	String pwd = request.getParameter("pwd");
+	String un = request.getParameter("un").trim();  // Trim username
+	String pwd = request.getParameter("pwd").trim();  // Trim password
+
 
 	try {
 		Class.forName("com.mysql.cj.jdbc.Driver");

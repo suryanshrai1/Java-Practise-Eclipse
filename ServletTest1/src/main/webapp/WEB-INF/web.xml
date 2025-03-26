@@ -29,4 +29,14 @@
     <servlet-name>SubmitServ</servlet-name>
     <url-pattern>/SubmitServ</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>dateTime</display-name>
+    <servlet-name>dateTime</servlet-name>
+    <servlet-class>dateTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dateTime</servlet-name>
+    <url-pattern>/dateTime</url-pattern>
+  </servlet-mapping>
 </web-app>
