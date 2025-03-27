@@ -39,4 +39,14 @@
     <servlet-name>dateTime</servlet-name>
     <url-pattern>/dateTime</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CurrDateTime</display-name>
+    <servlet-name>CurrDateTime</servlet-name>
+    <servlet-class>CurrDateTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CurrDateTime</servlet-name>
+    <url-pattern>/CurrDateTime</url-pattern>
+  </servlet-mapping>
 </web-app>
