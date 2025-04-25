@@ -18,7 +18,6 @@ public class MyController {
 	@Autowired
 	ProductService service;
 	
-	
 	@RequestMapping("/")
 	public String show(Model model)
 	{

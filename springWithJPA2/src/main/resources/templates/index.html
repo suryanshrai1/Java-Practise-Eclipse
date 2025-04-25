@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="2" cellpadding="10">
+<thead>
+<tr> 
+<th>Id</th>
+<th>Name</th>
+<th>CGPA</th>
+
+</tr>
+</thead>
+<tbody>
+<tr th:each="student : ${data}">
+<td th:text="${student.id}">Id</td>
+<td th:text="${student.name}">Name</td>
+<td th:text="${student.cgpa}">CGPA</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</body>
+</html>

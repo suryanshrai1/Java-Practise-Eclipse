@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name = "HibernateTest2.Employee" table = "employee">
+
+<id name = "id" type = "int"></id>
+<property name = "name" type = "String"></property>
+
+
+</class>
+
+</hibernate-mapping>
